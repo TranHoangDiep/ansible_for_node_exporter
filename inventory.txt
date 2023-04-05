@@ -1,0 +1,6 @@
+
+[monitorserver]
+db_server   ansible_host=44.200.70.208  ansible_user=ubuntu  ansible_ssh_private_key_file=~/.ssh/monitor.pem
+[nodeservers]
+server1  ansible_host=3.239.31.29  ansible_user=ubuntu  ansible_ssh_private_key_file=~/.ssh/node.pem
+server2  ansible_host=3.237.241.200 ansible_user=ubuntu  ansible_ssh_private_key_file=~/.ssh/node.pem
